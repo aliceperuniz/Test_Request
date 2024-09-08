@@ -1,5 +1,11 @@
-.container {
-    max-width: 1000px;
+.conteudo {
     margin: 2 rem auto;
     padding: 0 2rem;
+    width: 100%;
+    align-items: center;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+

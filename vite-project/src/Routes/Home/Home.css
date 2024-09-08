@@ -1,5 +1,9 @@
 .home {
     font-family: "PT Sans", sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin: 1.3rem;
+    background-color: brown;
 }
 
 .home h1 {
@@ -16,7 +20,11 @@
     border-bottom: 1px solid #777;
 }
 
-.post h2,
+.post h2 {
+    color: #F7D354;
+    margin-bottom: 1rem;
+}
+
 .post p {
     margin-bottom: 1rem;
 }
@@ -30,13 +38,15 @@
     color: #0e1217;
     border: 1px solid #fff;
     opacity: 1;
-    border-radius: 1re;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
     text-align: center;
     cursor: pointer;
+    max-width: 100px;
     transition: 0.3s;
 }
 
 .read-more:hover {
     background-color: #0e1217;
-    color: #fff;
+    color: #b8930c;
 }

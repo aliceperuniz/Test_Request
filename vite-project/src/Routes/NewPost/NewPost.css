@@ -1,0 +1,56 @@
+.new-post {
+    background-color: aqua;
+    width: 350px;
+    margin-top: 30px;
+    @media screen and (max-width: 400px) {
+        width: 250px;
+    }
+}
+
+.new-post h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+form {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-control label {
+    margin-bottom: 0.5rem;
+}
+
+.form-control input,
+.form-control textarea {
+    padding: .5rem;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+}
+
+.botao {
+    background-color: #fff;
+    color: #0e1217;
+    border: 1px solid #fff;
+    opacity: 1;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    cursor: pointer;
+    max-width: 100px;
+    transition: 0.3s;
+    margin: 5px;
+}
+
+.botao:hover {
+    background-color: #0e1217;
+    color: #b8930c;
+}
