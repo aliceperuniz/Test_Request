@@ -12,6 +12,9 @@ const Navbar = () => {
             <Link to={`/`}>Home</Link>
           </li>
           <li>
+            <Link to={`/my-posts`}>My Posts</Link>
+          </li>
+          <li>
             <Link to={`/new`} className='new-read-more'>
               New Post
             </Link>

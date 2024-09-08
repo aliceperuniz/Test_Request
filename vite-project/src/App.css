@@ -1,3 +1,10 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .conteudo {
     margin: 2 rem auto;
     padding: 0 2rem;
