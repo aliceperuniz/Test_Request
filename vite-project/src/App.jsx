@@ -1,11 +1,17 @@
+import { Outlet } from 'react-router-dom'
 import './App.css'
-import Login from './components/Login/login'
+import Navbar from './components/Navbar/Navbar'
+import Home from './Routes/Home/Home'
 
 function App() {
 
   return (
     <div className="App">
-      <Login />
+      <Navbar />
+      <div className='container'>
+        <Outlet />
+      </div>
+      <Home />
     </div>
   )
 }
