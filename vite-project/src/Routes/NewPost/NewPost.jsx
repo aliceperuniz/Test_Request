@@ -25,6 +25,7 @@ const NewPost = () => {
     await blogFetch.post("/posts", {
       body: post
     });
+    console.log(title, body)
     
     // Atualiza o estado dos posts
     setPosts(prevPosts => [

@@ -84,16 +84,22 @@ class Posts extends React.Component {
                         <div className="card-body" key={post.id}>
                             {editingPostId === post.id ? (
                                 // Modo de edição
-                                <div>
-                                    <input
-                                        type="text"
-                                        value={newTitle}
-                                        onChange={(e) => this.setState({ newTitle: e.target.value })}
-                                    />
-                                    <textarea
-                                        value={newBody}
-                                        onChange={(e) => this.setState({ newBody: e.target.value })}
-                                    />
+                                <div className="editable">
+                                    <div className="division">
+                                        <p>Título</p>
+                                        <input
+                                            type="text"
+                                            value={newTitle}
+                                            onChange={(e) => this.setState({ newTitle: e.target.value })}
+                                        />
+                                    </div>
+                                    <div className="division">
+                                        <p>Conteúdo</p>
+                                        <textarea
+                                            value={newBody}
+                                            onChange={(e) => this.setState({ newBody: e.target.value })}
+                                        />
+                                    </div>
                                     <button onClick={this.atualizarPost}>Salvar</button>
                                     <button onClick={() => this.setState({ editingPostId: null })}>Cancelar</button>
                                 </div>

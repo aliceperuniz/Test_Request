@@ -59,3 +59,46 @@
     color: #b8930c;
 }
 
+.editable {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    background-color: #0e1217;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.editable input,
+.editable textarea {
+    padding: 15px;
+    border-radius: 0.7rem;
+}
+
+.editable p {
+    margin: 5px;
+    color: #fff;
+}
+
+.editable button {
+    margin: 10px;
+    background-color: #fff;
+    color: #0e1217;
+    border: 1px solid #fff;
+    opacity: 1;
+    padding: 0.7rem 1rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    max-width: 120px;
+    transition: 0.3s;
+}
+
+
+.editable button:hover {
+    background-color: #0e1217;
+    color: #b8930c;
+}
+
