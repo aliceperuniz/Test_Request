@@ -71,7 +71,7 @@ A aplicação é dividida em várias partes principais:
 
 ## API Utilizada
 
-A aplicação se conecta à JSONPlaceholder, que fornece uma API para testes e protótipos. Os principais endpoints utilizados são:
+A aplicação se conecta à [JSONPlaceholder](https://jsonplaceholder.typicode.com/), que fornece uma API para testes e protótipos. Os principais endpoints utilizados são:
 
 - **Listar Todos os Posts:** `GET /posts`  
   ![GET](https://img.shields.io/badge/GET-007ACC?style=for-the-badge&logo=http&logoColor=white)
