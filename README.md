@@ -12,14 +12,6 @@ Esse projeto é uma aplicação web construída com React JS. Este projeto ofere
 
 ---
 
-## Funcionalidades
-
-- **Página Inicial:** Exibe uma lista de posts. Se não houver posts disponíveis, a mensagem "Carregando..." será exibida.
-- **Criar Novo Post:** Permite ao usuário criar um novo post e adicioná-lo à lista de posts. Após a criação, o usuário é redirecionado para a página inicial.
-- **Visualizar e Gerenciar Posts:** Exibe todos os posts do usuário com a opção de editar ou excluir cada post.
-
----
-
 ## Instalação e Execução
 
 Para rodar o projeto em sua máquina local, siga os seguintes passos:
