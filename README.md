@@ -1,4 +1,4 @@
-### Blog Application
+### Blog API
 
 Esse projeto é uma aplicação web construída com React JS. Este projeto oferece uma plataforma simples de um Mock de um blog. A aplicação utiliza a API pública JSONPlaceholder para simular interações com um backend.
 
