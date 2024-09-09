@@ -16,10 +16,10 @@ const Home = () => {
             const response = await blogFetch.get("/posts");
 
             console.log(response);
-            const data = response.data;
+            const data = response.data; // Extrai os dados dos posts da resposta.
 
             console.log(data);
-            setPosts(data);
+            setPosts(data); // Atualiza o estado dos posts com os dados recebidos
         } catch (error) {
             console.error(error);
         }
@@ -34,6 +34,7 @@ const Home = () => {
     <div className="home">
         <h1>Últimos posts</h1>
         {posts.length === 0 ? <p>Carregando...</p> : (
+            //  itera sobre a lista de posts, formando blocos de código para cada um
             posts.map((post) => (
                 <div className="post" key={post.id}>
                     <h2>{post.title}</h2>

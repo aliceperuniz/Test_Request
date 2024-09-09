@@ -1,0 +1,61 @@
+.title-myposts {
+    padding-left: 20px;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.card{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    font-family: "";
+    border-bottom: 1px solid #777;
+}
+
+.card-title{
+    padding-top: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #F7D354;
+    font-family: "";
+}
+.card-title::first-letter {
+    text-transform: uppercase;
+}
+
+.card-text{
+    font-size: 1.1rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.card-text::first-letter {
+    text-transform: uppercase;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.buttons button {
+    margin: 10px;
+    background-color: #fff;
+    color: #0e1217;
+    border: 1px solid #fff;
+    opacity: 1;
+    padding: 0.7rem 1rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    max-width: 120px;
+    transition: 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #0e1217;
+    color: #b8930c;
+}
+

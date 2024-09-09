@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import './Navbar.css';
 
+// Navbar do site, com links para diferentes as páginas do mesmo:
 const Navbar = () => {
   return (
     <nav id="navbar">
